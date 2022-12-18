@@ -1,0 +1,55 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage{geometry}
+\usepackage{amsmath,amsfonts}
+\geometry{right=0.2cm,left=0.2cm,top=0.2cm,bottom=0.2cm}
+
+\begin{document}
+    \noindent
+    \tiny Chapter 3\\
+    \([H^+]_{wa} = \sqrt{K_{a(HA)}+K_w}\)
+    \\ \([H^+]_{wa} = \sqrt{K_ac} \quad\)
+    \([H^+]_{wa} = \frac{-K_a+\sqrt{K_a^2+4K_ac}}{2} \quad\)
+    \([H^+]_{wa} = \sqrt{K_ac+K_w}\)
+    \\ \([H^+]_{ab} = \sqrt{\frac{K_{a_1}(K_{a_2}c+K_w)}{c+K_{a_1}}}\)
+    \([H^+]_{ab} = \sqrt{\frac{K_{a_1}(K_{a_2}c+K_w)}{c}}\)
+    \([H^+]_{ab} =\sqrt{\frac{K_{a_1}K_{a_2}c}{c+K_{a_1}}}\)
+    \\\([H^+]_{ab} = \sqrt{K_{a_1}K_{a_2}}\)
+    \([H^+]_{sa+wa}=\frac{(c_{sa}-K_{wa})+\sqrt{(c_{sa}-K_{wa})^2+4K_{wa}(c_{sa}+c_{wa})}}{2}\)
+    \\ \([H^+]_{wa+wa}=\sqrt{K_{HA}c_{HA}+K_{HB}c_{HB}}\)
+    \\ \([H^+]_{buffer}=K_a\frac{c_a+[{OH}^-]-[H^+]}{c_b+[H^+]-[{OH}^-]}=K_a\frac{c_a-[H^+]}{c_b+[H^+]}=K_a\frac{c_a+[{OH}^-]}{c_b-[{OH}^-]}=K_a\frac{c_a}{c_b}\)
+    \\ \(\beta = (2.303[H^+]+2.3[{OH}^-])+2.3\frac{cK_a[H^+]}{([H^+]+K_a)^2} = 2.3 \delta_1 \delta_2 c\) \\
+    Chapter 4 \\
+    \(K_{stable,n}=\frac{[ML_n]}{[ML_{n-1}][L]}\) \quad
+    \(\beta_n = K_1K_2\cdots K_n = \frac{[ML_n]}{[M][L]^n}\) \quad
+    \([ML_n]=\beta_n[M][L]^n\) \\
+    \(c_M=[M](1+\beta_1[L]+\beta_2[L]^2+\cdots+\beta_n[L]^n)\) \quad
+    \(\delta_{ML_n}=\delta_{M}\beta_{n}[L]^n\) \\
+    \(\alpha_Y = \frac{[Y']}{[Y]} = \alpha_{Y(H)} + \alpha_{Y(N)} - 1 \approx \alpha_{Y(H)} + \alpha_{Y(N)}\)\\
+    \(\alpha_Y(approx.)=\alpha_{Y(H)}=\frac{[Y]+[HY]+[H_2Y]+\cdots+[H_6Y]}{[Y]}=\frac{1}{\delta_{Y}}\) \quad
+    \(\alpha_{Y(H)}=1+\sum\limits_{i=1}^n \beta_i^H[H]^i\)
+    \(\alpha_{Y(N)}=\frac{[Y']}{[Y]}=1+K_{NY}[N]\) \quad
+    \(\alpha_{Y(N_1,N_2,\cdots N_n)}=\alpha_{Y(N_1)}+\alpha_{Y(N_2)}+\cdots \alpha_{Y(N_n)}- (n-1)\) \\
+    \(\alpha_{M(L)}=\frac{[M']}{[M]}=1+\sum\limits_{i=1}^n \beta_i [L]^i\) \quad
+    \(\alpha_{M(OH)}=\frac{[M']}{[M]}=1+\sum\limits_{i=1}^n \beta_i [OH]^i\)\\
+    \(\alpha_M = \alpha_{M(L)} + \alpha_{M(A)} - 1\) \quad
+    \(\alpha_{M}=\alpha_{M(L_1)}+\alpha_{M(L_2)}+\cdots \alpha_{M(L_n)}- (n-1)\) \\
+    \(\alpha_{MY(H)} = 1 + K^H_{MHY}[H]\) \quad
+    \(\alpha_{MY(OH)} = 1 + K^{OH}_{M(OH)Y}[OH]\) \\
+    \(K'_{MY}=K_{MY}\cdot \frac{\alpha_{MY}}{\alpha_M \alpha_Y}\) \quad
+    \(\alpha = \frac{{A'}}{[A]}\) \\
+    \(lgK'_{MY}=lgK_{MY}-lg \alpha_M - lg \alpha_Y+lg \alpha_{MY} \approx lgK_{MY}-lg \alpha_M - lg \alpha_Y \approx lgK_{MY'} = lgK_{MY} - lg\alpha_{Y(H)}\) \\
+    (buffer)\(pM=lgK_{ML}-lg\alpha_{L(H)}+lg\frac{[L']}{[ML]}\)\quad
+    \([M] = \frac{1}{K_{ML'}}\frac{[ML]}{[L']} = \frac{\alpha_{L(H)}}{K_{ML}}\frac{[ML]}{[L']}\) \\
+    (sp)\([M']_{sp}=\sqrt{\frac{c_{sp,M}}{K'_{MY}}}\) \quad
+    \(pM'_{sp} = \frac{1}{2}[lgK'_{MY}+p(c_{sp,M})]\) \\
+    (indicator) \(pM_t = lg K_{MIn'} = lgK_{MIn} - lg \alpha_{In(H)}\) \\
+    (T error)\(E_t = \frac{10^{\Delta pM'}-10^{-\Delta pM'}}{\sqrt{K'_{MY}\cdot c_{sp,m}}} \times 100\% = \frac{10^{\Delta pM}-10^{-\Delta pM}}{\sqrt{K'_{MY}\cdot c_{sp,m}}} \times 100\% \)\\
+    \(= (\frac{1}{[M']_{ep}\cdot K'_{MY}}-\frac{[M']_{ep}}{c_{sp,M}}) \times 100 \%\) \\
+    \(lg(c_{sp,M}\cdot K'_{MY}) \geq 6\) \quad
+    \(lg\alpha_{Y(H)} \leq lgK_{MY} - 8 \) \quad
+    \([OH^-] < \sqrt[n]{\frac{K_{sp}}{c_{M^{n+}}}}\) \\
+    \(pH < 14 - \frac{1}{n}(pK_{sp}+lgc_{M^{n+}})\) \\
+    \(lg(K'c) = \Delta lgK + lg\frac{c_M}{c_N} \geq 6\) or
+    \(\Delta lg(K'c) = lg(K'_1 c_1)-lg(K'_2 c_2) \geq 6\) \\
+    \(lgK'_{MY} = lgK_{MY} - lg \alpha_{Y(N)} = lgK_{MY} - lgK_{NY} - lg\frac{c_N}{\alpha_{N(A)}} = \Delta lgK + p(c_N) + lg \alpha_{N(A)}\)
+\end{document}
