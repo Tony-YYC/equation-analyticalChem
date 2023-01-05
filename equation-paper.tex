@@ -5,51 +5,91 @@
 
 \begin{document}
     \noindent
-    \tiny Chapter 3\\
-    \([H^+]_{wa} = \sqrt{K_{a(HA)}+K_w}\)
-    \\ \([H^+]_{wa} = \sqrt{K_ac} \quad\)
-    \([H^+]_{wa} = \frac{-K_a+\sqrt{K_a^2+4K_ac}}{2} \quad\)
-    \([H^+]_{wa} = \sqrt{K_ac+K_w}\)
-    \\ \([H^+]_{ab} = \sqrt{\frac{K_{a_1}(K_{a_2}c+K_w)}{c+K_{a_1}}}\)
-    \([H^+]_{ab} = \sqrt{\frac{K_{a_1}(K_{a_2}c+K_w)}{c}}\)
-    \([H^+]_{ab} =\sqrt{\frac{K_{a_1}K_{a_2}c}{c+K_{a_1}}}\)
-    \\\([H^+]_{ab} = \sqrt{K_{a_1}K_{a_2}}\)
-    \([H^+]_{sa+wa}=\frac{(c_{sa}-K_{wa})+\sqrt{(c_{sa}-K_{wa})^2+4K_{wa}(c_{sa}+c_{wa})}}{2}\)
-    \\ \([H^+]_{wa+wa}=\sqrt{K_{HA}c_{HA}+K_{HB}c_{HB}}\)
-    \\ \([H^+]_{buffer}=K_a\frac{c_a+[{OH}^-]-[H^+]}{c_b+[H^+]-[{OH}^-]}=K_a\frac{c_a-[H^+]}{c_b+[H^+]}=K_a\frac{c_a+[{OH}^-]}{c_b-[{OH}^-]}=K_a\frac{c_a}{c_b}\)
+    Chapter 2 \\
+    \(f = n - 1\)\\
+    \(t=\frac{\overline{x}-\mu}{s} \sqrt{n} \)\\
+    \(-t_\alpha (f)<t<t_\alpha (f)\) \\
+    \((\overline{x}-t_\alpha (f) \frac{s}{\sqrt{n}},\overline{x}+t_\alpha (f) \frac{s}{\sqrt{n}})\)\\
+    \(u=\frac{\overline{x}-\mu}{\sigma } \sqrt{n} \)\\
+    \(-u_\alpha <u<u_\alpha\) \\
+    \((\overline{x}-u_\alpha \frac{\sigma }{\sqrt{n}},\overline{x}+u_\alpha \frac{s}{\sqrt{\sigma }})\)\\
+    \(F=\frac{s_{big}^2}{s_{small}^2}\) \\
+    \(s_p=\sqrt{\frac{s_1^2(n_1-1)+s_2^2(n_2-1)}{n_1+n_2-2}}\) \\
+    \(f=n_1+n_2-2\)\\
+    \(t=\frac{|\overline{x_2}-\overline{x_1}|}{s_p}\sqrt{\frac{n_1n_2}{n_1+n_2}}\) \\
+    \(s_d=\sqrt{\frac{\Sigma (d_i - \overline{d})^2}{n-1}}\) \\
+    \(t = \frac{\overline{d} - <d>}{s_d} \cdot \sqrt{n} \quad <d>=0\)\\
+    \(Q_{calc}=\frac{|x_q-x_n|}{x_{max}-x_{min}}\) \\
+    \(G_{calc}=\frac{|x_q-\overline{x}|}{s}\) \\
+    %\(IQR = Q_3-Q_1\)\\
+    %\(<Q_1-1.5IQR \quad >Q_3+1.5IQR\)\\
+    \(\frac{x_q-\overline{x}_{exclude}}{\overline{d}_{exclude}} \geq 4\)\\
+    Chapter 3\\
+    \([H^+] = \frac{c_a+\sqrt{c_a^2+4K_w}}{2} \approx c_a(c>10^{-6} mol/L)\) \\
+    \([H^+] = \sqrt{K_{a(HA)}+K_w}\) \\
+    \([H^+] = \sqrt{K_ac} \quad cK_a \geq 20K_w \quad \frac{c}{K_a}>400\) \\
+    \([H^+] = \frac{-K_a+\sqrt{K_a^2+4K_ac}}{2} \quad cK_a \geq 20K_w \quad \frac{c}{K_a} \leq 400\) \\
+    \([H^+] = \sqrt{K_ac+K_w}\quad cK_a < 20K_w \quad \frac{c}{K_a} > 400\) \\
+    \\ \([H^+] = \sqrt{\frac{K_{a_1}(K_{a_2}c+K_w)}{c+K_{a_1}}}\) \\
+    \([H^+] = \sqrt{\frac{K_{a_1}(K_{a_2}c+K_w)}{c}} \quad cK_{a2} < 20K_w \quad \frac{c}{K_{a1}}\geq 20\) \\
+    \([H^+] =\sqrt{\frac{K_{a_1}K_{a_2}c}{c+K_{a_1}}} \quad cK_{a2} \geq 20K_w \quad \frac{c}{K_{a1}} < 20\) \\
+    \([H^+] = \sqrt{K_{a_1}K_{a_2}} \quad cK_{a2} \geq 20K_w \quad \frac{c}{K_{a1}}\geq 20\) \\
+    \([H^+]=\frac{(c_{sa}-K_{wa})+\sqrt{(c_{sa}-K_{wa})^2+4K_{wa}(c_{sa}+c_{wa})}}{2} \approx c_a \quad (c_a > 20[A^-])\)
+    \\ \([H^+]=\sqrt{K_{HA}c_{HA}+K_{HB}c_{HB}} \approx \sqrt{K_{HA}c_{HA}}\)
+    \\ \([H^+]=K_a\frac{c_a+[{OH}^-]-[H^+]}{c_b+[H^+]-[{OH}^-]}=K_a\frac{c_a-[H^+]}{c_b+[H^+]}=K_a\frac{c_a+[{OH}^-]}{c_b-[{OH}^-]}=K_a\frac{c_a}{c_b}\)
     \\ \(\beta = (2.303[H^+]+2.3[{OH}^-])+2.3\frac{cK_a[H^+]}{([H^+]+K_a)^2} = 2.3 \delta_1 \delta_2 c\) \\
+    \(E_t=\frac{[H^+]_{ep}-[OH^-]_{ep}}{c_{sp,base}}\times 100\% = \frac{10^{-\Delta pH}-10^{\Delta pH}}{\sqrt{K_t}\times c_{sp,base}}\) \\
+    \(E_t=\frac{[OH^-]_{ep}-[H^+]_{ep}}{c_{sp,acid}}\times 100\%= \frac{10^{\Delta pH}-10^{-\Delta pH}}{\sqrt{K_t}\times c_{sp,acid}}\) \\
+    \(E_t=\frac{[OH^-]_{ep}-[Acid]_{ep}}{c_{sp,acid}}\times 100\% = \frac{[OH^-]_{ep}}{c_{sp,acid}} - \delta _{Acid}\times 100\% = \frac{10^{\Delta pH}-10^{-\Delta pH}}{\sqrt{K_t\times c_{sp,acid}}}\) \\
+    \(E_t=\frac{[H+]_{ep}-[Base]_{ep}}{c_{sp,base}}\times 100\% = \frac{[H^+]_{ep}}{c_{sp,base}} - \delta _{base}\times 100\% = \frac{10^{-\Delta pH}-10^{\Delta pH}}{\sqrt{K_t\times c_{sp,base}}}\) \\
+    \(E_t=\frac{10^{\Delta pH}-10^{-\Delta pH}}{\sqrt{K_{a1}/K_{a2}}}\) \\
     Chapter 4 \\
-    \(K_{stable,n}=\frac{[ML_n]}{[ML_{n-1}][L]}\) \quad
-    \(\beta_n = K_1K_2\cdots K_n = \frac{[ML_n]}{[M][L]^n}\) \quad
+    \(K_n=\frac{[ML_n]}{[ML_{n-1}][L]}\) \quad
+    \(\beta_n = K_1K_2\cdots K_n = \frac{[ML_n]}{[M][L]^n}\) \\
     \([ML_n]=\beta_n[M][L]^n\) \\
     \(c_M=[M](1+\beta_1[L]+\beta_2[L]^2+\cdots+\beta_n[L]^n)\) \quad
     \(\delta_{ML_n}=\delta_{M}\beta_{n}[L]^n\) \\
     \(\alpha_Y = \frac{[Y']}{[Y]} = \alpha_{Y(H)} + \alpha_{Y(N)} - 1 \approx \alpha_{Y(H)} + \alpha_{Y(N)}\)\\
-    \(\alpha_Y(approx.)=\alpha_{Y(H)}=\frac{[Y]+[HY]+[H_2Y]+\cdots+[H_6Y]}{[Y]}=\frac{1}{\delta_{Y}}\) \quad
+    \(\alpha_Y \approx \alpha_{Y(H)}=\frac{[Y]+[HY]+[H_2Y]+\cdots+[H_6Y]}{[Y]}=\frac{1}{\delta_{Y}}\) \\
     \(\alpha_{Y(H)}=1+\sum\limits_{i=1}^n \beta_i^H[H]^i\)
-    \(\alpha_{Y(N)}=\frac{[Y']}{[Y]}=1+K_{NY}[N]\) \quad
+    \(\alpha_{Y(N)}=\frac{[Y']}{[Y]}=1+K_{NY}[N]\) \\
     \(\alpha_{Y(N_1,N_2,\cdots N_n)}=\alpha_{Y(N_1)}+\alpha_{Y(N_2)}+\cdots \alpha_{Y(N_n)}- (n-1)\) \\
     \(\alpha_{M(L)}=\frac{[M']}{[M]}=1+\sum\limits_{i=1}^n \beta_i [L]^i\) \quad
     \(\alpha_{M(OH)}=\frac{[M']}{[M]}=1+\sum\limits_{i=1}^n \beta_i [OH]^i\)\\
-    \(\alpha_M = \alpha_{M(L)} + \alpha_{M(A)} - 1\) \quad
+    \(\alpha_M = \alpha_{M(L)} + \alpha_{M(A)} - 1\) \\
     \(\alpha_{M}=\alpha_{M(L_1)}+\alpha_{M(L_2)}+\cdots \alpha_{M(L_n)}- (n-1)\) \\
     \(\alpha_{MY(H)} = 1 + K^H_{MHY}[H]\) \quad
     \(\alpha_{MY(OH)} = 1 + K^{OH}_{M(OH)Y}[OH]\) \\
     \(K'_{MY}=K_{MY}\cdot \frac{\alpha_{MY}}{\alpha_M \alpha_Y}\) \quad
     \(\alpha = \frac{{A'}}{[A]}\) \\
     \(lgK'_{MY}=lgK_{MY}-lg \alpha_M - lg \alpha_Y+lg \alpha_{MY} \approx lgK_{MY}-lg \alpha_M - lg \alpha_Y \approx lgK_{MY'} = lgK_{MY} - lg\alpha_{Y(H)}\) \\
-    (buffer)\(pM=lgK_{ML}-lg\alpha_{L(H)}+lg\frac{[L']}{[ML]}\)\quad
+    \(pM=lgK_{ML}-lg\alpha_{L(H)}+lg\frac{[L']}{[ML]}\) \quad
     \([M] = \frac{1}{K_{ML'}}\frac{[ML]}{[L']} = \frac{\alpha_{L(H)}}{K_{ML}}\frac{[ML]}{[L']}\) \\
-    (sp)\([M']_{sp}=\sqrt{\frac{c_{sp,M}}{K'_{MY}}}\) \quad
+    \([M']_{sp}=\sqrt{\frac{c_{sp,M}}{K'_{MY}}}\) \quad
     \(pM'_{sp} = \frac{1}{2}[lgK'_{MY}+p(c_{sp,M})]\) \\
-    (indicator) \(pM_t = lg K_{MIn'} = lgK_{MIn} - lg \alpha_{In(H)}\) \\
-    (T error)\(E_t = \frac{10^{\Delta pM'}-10^{-\Delta pM'}}{\sqrt{K'_{MY}\cdot c_{sp,m}}} \times 100\% = \frac{10^{\Delta pM}-10^{-\Delta pM}}{\sqrt{K'_{MY}\cdot c_{sp,m}}} \times 100\% \)\\
+    \(pM_t = lg K_{MIn'} = lgK_{MIn} - lg \alpha_{In(H)}\) \\
+    \(E_t = \frac{10^{\Delta pM'}-10^{-\Delta pM'}}{\sqrt{K'_{MY}\cdot c_{sp,m}}} \times 100\% = \frac{10^{\Delta pM}-10^{-\Delta pM}}{\sqrt{K'_{MY}\cdot c_{sp,m}}} \times 100\% \)\\
     \(= (\frac{1}{[M']_{ep}\cdot K'_{MY}}-\frac{[M']_{ep}}{c_{sp,M}}) \times 100 \%\) \\
-    \(lg(c_{sp,M}\cdot K'_{MY}) \geq 6\) \quad
-    \(lg\alpha_{Y(H)} \leq lgK_{MY} - 8 \) \quad
-    \([OH^-] < \sqrt[n]{\frac{K_{sp}}{c_{M^{n+}}}}\) \\
-    \(pH < 14 - \frac{1}{n}(pK_{sp}+lgc_{M^{n+}})\) \\
-    \(lg(K'c) = \Delta lgK + lg\frac{c_M}{c_N} \geq 6\) or
-    \(\Delta lg(K'c) = lg(K'_1 c_1)-lg(K'_2 c_2) \geq 6\) \\
+    %\(lg(c_{sp,M}\cdot K'_{MY}) \geq 6\) \\
+    %\(lg\alpha_{Y(H)} \leq lgK_{MY} - 8 \) \\
+    %\([OH^-] < \sqrt[n]{\frac{K_{sp}}{c_{M^{n+}}}}\) \\
+    %\(pH < 14 - \frac{1}{n}(pK_{sp}+lgc_{M^{n+}})\) \\
+    %\(lg(K'c) = \Delta lgK + lg\frac{c_M}{c_N} \geq 6\) or
+    %\(\Delta lg(K'c) = lg(K'_1 c_1)-lg(K'_2 c_2) \geq 6\) \\
     \(lgK'_{MY} = lgK_{MY} - lg \alpha_{Y(N)} = lgK_{MY} - lgK_{NY} - lg\frac{c_N}{\alpha_{N(A)}} = \Delta lgK + p(c_N) + lg \alpha_{N(A)}\)
+    \\ Chapter 5
+    \\ \(\varphi = \varphi^\Theta + \frac{0.059}{n}lg\frac{\gamma_{Ox}\alpha_{Red}}{\gamma_{Red}\alpha_{Ox}} + \frac{0.059}{n}lg\frac{c_{Ox}}{c_{Red}}\)
+    \\ \(\varphi^{\Theta'} = \varphi^\Theta + \frac{0.059}{n}lg\frac{\gamma_{Ox}\alpha_{Red}}{\gamma_{Red}\alpha_{Ox}}\)
+    \\ \(\varphi = \varphi^{\Theta'} + \frac{0.059}{n}lg\frac{c_{Ox}}{c_{Red}} \approx \varphi^{\Theta} + \frac{0.059}{n}lg\frac{\alpha_{Red}}{\alpha_{Ox}} + \frac{0.059}{n}lg\frac{c_{Ox}}{c_{Red}} = \varphi^{\Theta} + \frac{0.059}{n}lg\frac{\delta_{Ox}}{\delta_{Red}} + \frac{0.059}{n}lg\frac{c_{Ox}}{c_{Red}} = \varphi^{\Theta} + \frac{0.059}{n}lg\frac{[Ox]}{[Red]}\) \quad
+    \\ \(lgK' = lg [{(\frac{c_{{Red}_1}}{c_{{Ox}_1}})}^{n_1}{(\frac{c_{{Red}_2}}{c_{{Ox}_2}})}^{n_2}] = \frac{(\varphi_1^{\Theta '}-\varphi_2^{\Theta '})n_1n_2}{0.059} = \frac{(\varphi_1^{\Theta '}-\varphi_2^{\Theta '})n}{0.059}\)
+    \\ \((n_1+n_2)\varphi_{sp} = n_1\varphi_1^{\Theta '} + n_2\varphi_2^{\Theta '} + 0.059lg\frac{c_{sp,Ox_1 c_{sp,Ox_2}}}{c_{sp,Red_1} c_{sp,Red_2}}\)
+    \\ \(\varphi_{sp} = \frac{n_1\varphi_1^{\Theta '} + n_2\varphi_2^{\Theta '}}{n_1+n_2}\)
+    \\ Chapter 6
+    \\ \(K=\frac{a_{M^+} \cdot a_{A^-}}{a_{MA(aq.)}}\)
+    \\ \(K^{\Theta}_{sp} = a_{M^+} \cdot a_{A^-} = K \cdot s^o \rightarrow\)
+    \\ \(K_{sp} = [M^+][A^-] = \frac{a_{M^+}}{\gamma_{M^+}} \cdot \frac{a_{A^-}}{\gamma_{A^-}} = \frac{K^{\Theta}_{sp}}{\gamma_{M^+} \cdot \gamma_{A^-}}\)
+    \\ \(K'_{sp} = K_{sp} \cdot \alpha_{M} \cdot \alpha_{A}\)
+    \\ \(s=[M']=[A']=\sqrt{K'_{sp}}\)
+    \\ \(K'_{sp} = K_{sp} \cdot \alpha_M^m \cdot \alpha_A^{n}\)
+    \\ \(s=\sqrt[m+n]{\frac{K'_{sp}}{m^m \cdot n^n}}\)
 \end{document}
